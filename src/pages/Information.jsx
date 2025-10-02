@@ -1,8 +1,5 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import coughing1 from "../assets/coughing1.jpg";
-import coughing2 from "../assets/coughing2.jpg";
-import vaccine from "../assets/vaccine.png";
 
 const Information = () => {
 	return (
