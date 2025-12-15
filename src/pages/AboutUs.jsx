@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar";
 import prisky from "../assets/prisky.jpg";
+import may from "../assets/may.jpg";
+import vergeo from "../assets/vergeo.jpg";
 import Footer from "./components/Footer";
 
 const AboutUs = () => {
-	
-
 	return (
 		<div className="w-screen min-h-screen bg-(--bg) flex flex-col justify-between">
 			<Navbar active="About Us" />
@@ -16,29 +16,21 @@ const AboutUs = () => {
 
 					<div className="bg-(--bg-light) w-full p-5 gap-5 rounded-md shadow-md flex">
 						<img
-							src={prisky}
+							src={may}
 							alt=""
 							className="h-50 w-50 rounded-full"
 						/>
-						<div className="flex flex-col flex-1 justify-between">
+						<div className="flex flex-col flex-1 justify-center">
 							<div className="text-2xl font-bold">
-								Prisky Jofan Simbar
+								Maynardo Cornelius
 							</div>
-							<div className="text-sm">
-								Saya ganteng banget, saya punya banyak aura.
-							</div>
-							<div>Linked In</div>
 						</div>
 					</div>
 					<div className="bg-(--bg-light) w-full p-5 gap-5 rounded-md shadow-md flex">
-						<div className="flex flex-col flex-1 justify-between">
+						<div className="flex flex-col flex-1 justify-center">
 							<div className="text-2xl font-bold text-right">
 								Prisky Jofan Simbar
 							</div>
-							<div className="text-sm text-right">
-								Saya ganteng banget, saya punya banyak aura.
-							</div>
-							<div className="text-right">Linked In</div>
 						</div>
 						<img
 							src={prisky}
@@ -48,18 +40,14 @@ const AboutUs = () => {
 					</div>
 					<div className="bg-(--bg-light) w-full p-5 gap-5 rounded-md shadow-md flex">
 						<img
-							src={prisky}
+							src={vergeo}
 							alt=""
 							className="h-50 w-50 rounded-full"
 						/>
-						<div className="flex flex-col flex-1 justify-between">
+						<div className="flex flex-col flex-1 justify-center">
 							<div className="text-2xl font-bold">
-								Prisky Jofan Simbar
+								Vergeo Valentino Gunawan
 							</div>
-							<div className="text-sm">
-								Saya ganteng banget, saya punya banyak aura.
-							</div>
-							<div>Linked In</div>
 						</div>
 					</div>
 				</div>
